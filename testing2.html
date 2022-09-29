@@ -12,14 +12,17 @@
   <script>
   function changetitle1(userInput){
     document.getElementById("val").innerHTML = userInput;
-    document.title = userInput;
+    document.title = "userInput";
+    if (userInput === ""){
+      document.title = "no title";
+    }
   }
   </script>
 </body>
 </html>
 
 <xmp>
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>-</title>
@@ -33,7 +36,10 @@
   <script>
   function changetitle1(userInput){
     document.getElementById("val").innerHTML = userInput;
-    document.title = userInput;
+    document.title = "userInput";
+    if (userInput === ""){
+      document.title = "no title";
+    }
   }
   </script>
 </body>
