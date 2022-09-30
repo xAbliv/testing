@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>-</title>
+  </head>
+<body>
+
+  <input type="text" oninput="changetitle1(this.value)" onchange="changetitle1(this.value)"><br>
+  <span id="val"></span>
+  
+
+  <script>
+  function changetitle1(userInput){
+    document.getElementById("val").innerHTML = userInput;
+    
+    var link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.getElementsByTagName('head')[0].appendChild(link);
+}
+link.href = userInput;
+}
+  }
+  </script>
+</body>
+</html>
+<xmp>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>-</title>
+  </head>
+<body>
+
+  <input type="text" oninput="changetitle1(this.value)" onchange="changetitle1(this.value)"><br>
+  <span id="val"></span>
+  
+
+  <script>
+  function changetitle1(userInput){
+    document.getElementById("val").innerHTML = userInput;
+    
+    var link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.getElementsByTagName('head')[0].appendChild(link);
+}
+link.href = userInput;
+}
+  }
+  </script>
+</body>
+</html>
+</xmp>
